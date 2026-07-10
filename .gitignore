@@ -1,0 +1,29 @@
+# Competition inputs, checkpoints and generated outputs
+/data/
+/outputs/
+/dist/
+/build/
+*.pth
+*.pt
+*.zip
+*.egg-info/
+
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Credentials and local settings
+.env
+.env.*
+kaggle.json
+.kaggle/
+
+# Temporary notebook inspection dumps
+/_heads.txt
+/_metric.txt
+/_nb01_head.txt
+/_nb55_src.txt

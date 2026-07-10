@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-debris"
+version = "0.1.0"
+description = "Reproducible NB51 solution and experiment archive for Neural Debris Removal"
+requires-python = ">=3.10"
+authors = [{name = "heon29"}]
+dependencies = []
+
+[project.optional-dependencies]
+runtime = ["numpy", "pandas", "opencv-python-headless", "scikit-learn", "tqdm"]
+
+[project.scripts]
+neural-debris = "neural_debris.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+neural_debris = ["stages/*.py", "stages/*.json"]
