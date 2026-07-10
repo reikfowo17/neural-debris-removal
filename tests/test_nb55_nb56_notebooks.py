@@ -11,8 +11,8 @@ from sklearn.metrics import roc_auc_score
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NB55 = ROOT / "55_conservative_floor_sweep.ipynb"
-NB56 = ROOT / "56_pcgrad_boxkd_repair.ipynb"
+NB55 = ROOT / "notebook/experiments/55_conservative_floor_sweep.ipynb"
+NB56 = ROOT / "notebook/experiments/56_pcgrad_boxkd_repair.ipynb"
 
 
 def notebook_source(path):

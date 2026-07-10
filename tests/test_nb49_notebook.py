@@ -6,7 +6,7 @@ from pathlib import Path
 import torch
 
 
-NOTEBOOK = Path(__file__).resolve().parents[1] / "49_contrastive_real_anchor_scrub.ipynb"
+NOTEBOOK = Path(__file__).resolve().parents[1] / "notebook/experiments/49_contrastive_real_anchor_scrub.ipynb"
 
 
 def load_notebook():

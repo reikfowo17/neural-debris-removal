@@ -4,4 +4,4 @@ The approved scope combines a portfolio README, experimental notebook archive, a
 
 First extract executable Python stages, preserving the notebook's shared namespace explicitly rather than changing mathematical dependencies during conversion. The CLI validates configuration and data before executing stages, and offers inspection without GPU imports. CPU tests verify extraction fidelity, stage execution semantics and configuration validation. Full training requires a compatible CUDA/Detectron2 environment and is reported separately from CPU verification.
 
-Existing experiment paths remain available so existing tests and user references continue to work; an archive index provides navigation. GitHub publication follows repository review and destination selection.
+Experiment notebooks are collected in `notebook/experiments/` at the author's request; test paths and archive navigation follow this location. Original notebook contents remain preserved. GitHub publication follows repository review and destination selection.

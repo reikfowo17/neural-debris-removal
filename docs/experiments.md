@@ -1,6 +1,6 @@
 # Experiment archive
 
-Original notebook filenames and paths are retained for traceability and compatibility with existing tests. This index groups experiments by filename/topic; it does not infer leaderboard improvements from those names.
+All process notebooks are collected in [`notebook/experiments/`](../notebook/experiments/), with original filenames and saved outputs retained. Tests use this archive location. This index groups experiments by filename/topic; it does not infer leaderboard improvements from those names.
 
 | Family | Notebook range / examples | Explored direction |
 |---|---|---|
@@ -12,7 +12,7 @@ Original notebook filenames and paths are retained for traceability and compatib
 | **Final solution** | [`v126`](../notebooks/final/neural-debris-v126.ipynb), local `51_deadline_fixed_alpha_sweep.ipynb` | Standalone fixed-alpha sweep with gate-controlled exact-K exports |
 | Subsequent alternatives | `52`–`56` | Sparse exact-K, response fingerprints, continuous calibration, confidence-floor sweep, PCGrad |
 
-`notebook/` contains historical notebooks named `229`, `243`, `245`, `247`, `250`, `263`, and `290`. These are historical filenames, not asserted Kaggle version numbers or confirmed scores.
+The same `notebook/experiments/` directory contains historical notebooks named `229`, `243`, `245`, `247`, `250`, `263`, and `290`. These are historical filenames, not asserted Kaggle version numbers or confirmed scores.
 
 Local NB51 includes saved execution logs. The downloaded final v126 is archived separately so the project does not assume a local notebook with a similar title is identical to the submitted source. Research design/plan notes are in `docs/superpowers/`.
 

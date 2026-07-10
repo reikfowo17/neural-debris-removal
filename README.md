@@ -55,8 +55,7 @@ src/neural_debris/       CLI, configuration and execution runner
   stages/               17 readable Python computation stages from v126
 configs/                JSON configuration overrides
 notebooks/final/        Downloaded v126 and Kaggle metadata
-01_...56_*.ipynb         Original experimental notebook archive
-notebook/               Historical executed notebooks
+notebook/experiments/   All experimental and historical notebooks
 docs/                   Solution, reproduction and archive navigation
 tests/                  CPU regression checks and original notebook tests
 tools/extract_v126.py    Regenerate stages from the archived source
@@ -73,4 +72,4 @@ python -m pytest tests -q
 
 CPU checks cover lossless source extraction, override timing, shared-state execution, stable exact-K selection and submission serialization. Full CUDA training and identical leaderboard scores have not been revalidated locally.
 
-Competition data, model weights, credentials and generated outputs are excluded from Git. Download inputs through Kaggle; existing experiment notebooks retain their historical names and paths.
+Competition data, model weights, credentials and generated outputs are excluded from Git. Download inputs through Kaggle; experiment notebooks retain their historical filenames in `notebook/experiments/`.

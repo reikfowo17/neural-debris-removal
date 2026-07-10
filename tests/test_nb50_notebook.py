@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 
-NOTEBOOK = Path(__file__).resolve().parents[1] / "50_nested_alpha_k_sweep.ipynb"
+NOTEBOOK = Path(__file__).resolve().parents[1] / "notebook/experiments/50_nested_alpha_k_sweep.ipynb"
 
 
 def load_notebook():

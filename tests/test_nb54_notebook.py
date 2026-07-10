@@ -7,7 +7,7 @@ import pandas as pd
 import pytest
 
 
-NOTEBOOK = Path(__file__).resolve().parents[1] / "54_continuous_dense_calibration.ipynb"
+NOTEBOOK = Path(__file__).resolve().parents[1] / "notebook/experiments/54_continuous_dense_calibration.ipynb"
 BUILDER = NOTEBOOK.parent / "_build_nb54.py"
 
 
